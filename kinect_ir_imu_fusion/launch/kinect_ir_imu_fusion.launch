@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <!-- these are the arguments that could be passed to the fusion node, for example height:=600-->
+  <arg name="camera_height" default="600"/>
+  <arg name="camera_focal" default="580"/>
+  <arg name="pen_length"   default="15"/>
+
+  <!-- support packages: for reading kinect infrared camera and IMU respectively-->
+  <node name="kinect_ir_tracking" pkg="kinect_ir_tracking" type="kinect_ir_main"/>
+  <node name="razor_imu_node" pkg="razor_imu_pkg" type="razor_imu_node.py"/>
+  <!-- fusion node -->
+  <node name="kinect_ir_imu_fusion" pkg="kinect_ir_imu_fusion" type="kinect_ir_imu_fusion.py" output="screen" args="$(arg camera_height) $(arg camera_focal) $(arg pen_length)"/>
+  <node name="kinect_ir_imu_board" pkg="kinect_ir_imu_fusion" type="kinect_ir_imu_board.py" output="screen"/>
+</launch>

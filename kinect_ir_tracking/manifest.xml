@@ -1,0 +1,16 @@
+<package>
+  <description brief="kinect_ir_tracking">
+
+     kinect_ir_tracking
+
+  </description>
+  <author>hangyin</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kinect_ir_tracking</url>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+

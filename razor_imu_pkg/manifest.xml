@@ -1,0 +1,16 @@
+<package>
+  <description brief="razor_imu_pkg">
+
+     razor_imu_pkg
+
+  </description>
+  <author>hangyin</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/razor_imu_pkg</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+
+</package>
+
+

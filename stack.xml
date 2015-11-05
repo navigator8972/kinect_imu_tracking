@@ -1,0 +1,9 @@
+<stack>
+  <description brief="KinectIMUTracking">KinectIMUTracking</description>
+  <author>Hang Yin</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kinect_imu_tracking</url>
+  <depend stack="ros" />
+
+</stack>
