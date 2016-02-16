@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *~
 bin
 build
@@ -7,3 +8,33 @@ lib
 **/build
 **/lib
 **/data
+=======
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+>>>>>>> 008b685b778cdef2827c11cfc37310b0f123f5ec
