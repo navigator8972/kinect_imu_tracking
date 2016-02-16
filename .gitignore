@@ -3,4 +3,7 @@ bin
 build
 lib
 *.pyc
-
+**/bin
+**/build
+**/lib
+**/data
